@@ -11,6 +11,7 @@ import { AlbumsComponent } from './albums/albums.component';
 import { AlbumDetailComponent } from './album-detail/album-detail.component';
 import { AlbumPhotosComponent } from './album-photos/album-photos.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ProductsComponent } from './products/products.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { HttpClientModule } from '@angular/common/http';
     AboutComponent,
     AlbumsComponent,
     AlbumDetailComponent,
-    AlbumPhotosComponent
+    AlbumPhotosComponent,
+    ProductsComponent
   ],
   imports: [
     BrowserModule,
